@@ -1,0 +1,100 @@
+<!-- pages/customer-label/customer-label.wxml -->
+<view class='list-link'>
+    <navigator class='item' url='/pages/customer-label-add/customer-label-add'>
+        <image class='icon' src='/image/icon-add.png'></image>
+        <text class='name'>新建自定义标签</text>
+    </navigator>
+</view>
+<view class='divider'></view>
+<view class='list-label'>
+    <navigator class='item'>
+        <view class='inner'>
+            <view class='label label-gray'>未关注公众号</view>
+            <text class='number'>94人</text>
+        </view>
+    </navigator>
+    <navigator class='item'>
+        <view class='inner'>
+            <view class='label label-gray'>未复购顾客</view>
+            <text class='number'>37人</text>
+        </view>
+    </navigator>
+    <navigator class='item'>
+        <view class='inner'>
+            <view class='label label-gray'>未购买顾客</view>
+            <text class='number'>45人</text>
+        </view>
+    </navigator>
+</view>
+<view class='divider'></view>
+<view class='list-label'>
+    <!-- 颜色: 红/橙/黄/绿/青/蓝/紫/粉/棕/灰 -->
+    <!-- 对应: label-red/label-orange/label-yellow/label-green/label-cyan/label-blue/label-purple/label-pink/label-brown/label-gray -->
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-red'>购买属性</view>
+            <text class='number'>94人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-orange'>风格<view class='space'>|</view>女</view>
+            <text class='number'>37人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-orange'>风格<view class='space'>|</view>男</view>
+            <text class='number'>37人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-yellow'>营销敏感</view>
+            <text class='number'>45人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-green'>体型特征</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-cyan'>品类喜好</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-blue'>颜色喜好</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-purple'>顾客属性</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-pink'>顾客购买力</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-brown'>恶意买家</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-gray'>自定义标签</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+</view>
+<view class='divider'></view>

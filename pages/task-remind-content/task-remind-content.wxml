@@ -1,0 +1,98 @@
+<!--pages/task-remind-content/task-remind-content.wxml-->
+<!-- customer start -->
+<view class='task-content-customer'>
+    <view class='inner-header'>
+        <view class='inner-task-info'>
+            <image class='icon' src='/image/icon-2.png'></image>
+            <text class='name'>复购提醒任务</text>
+            <text class='date'>2019-01-19 00:00:00</text>
+        </view>
+        <text class='task-state red'>已超时</text>
+    </view>
+    <view class='inner-customer'>
+        <view class='avatar'>
+            <image class='image' src='/image/image-default.jpg'></image>
+            <image class='badge' src='/image/icon-man.png'></image>
+        </view>
+        <view class='info'>
+            <view class='row'>
+                <text class='name'>刘雅静</text>
+            </view>
+            <view class='row'>
+                <view class='label-group'>
+                    <text class='label-icon rank'>青铜会员</text>
+                    <text class='label-icon phone'>13855558888</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- customer over -->
+<view class='divider'></view>
+<!-- info start -->
+<view class='task-content-info'>
+    <view class='item'>
+        <text class='name'>生日</text>
+        <text class='info'>2018-12-24</text>
+    </view>
+    <view class='item'>
+        <text class='name'>宝宝生日</text>
+        <text class='info'>2018-12-24</text>
+    </view>
+    <view class='item'>
+        <text class='name'>首次购买时间</text>
+        <text class='info'>2018-12-24 17:25:33</text>
+    </view>
+    <view class='item'>
+        <text class='name'>最近一次购买时间</text>
+        <text class='info'>2018-12-24 20:56:04</text>
+    </view>
+    <view class='item'>
+        <text class='name'>最近一次购买商品</text>
+        <text class='info'>风味酸奶</text>
+    </view>
+    <view class='item'>
+        <text class='name'>累计消费金额</text>
+        <text class='info'>¥100.00</text>
+    </view>
+</view>
+<!-- info over -->
+<view class='divider'></view>
+<!-- action start -->
+<view class='task-content-action'>
+    <text class='task-content-title'>沟通话术</text>
+    <view class='task-content-action-text'>
+        <text>您好, 我是您的专属顾问小明, 是否需要为您推荐最合适的乳制品?</text>
+        <text>您好, 您在2019年1月1日购买的酸奶, 不知吃着味道如何, 如果您在使用产品的过程中有什么需要帮助的请随时联系我</text>
+    </view>
+    <view class='action-group'>
+        <view class='item' bindtap='tel'>
+            <image src='/image/icon-14.png'></image>
+        </view>
+        <view class='item'>
+            <image src='/image/icon-15.png'></image>
+        </view>
+        <navigator class='item' url='/pages/task-implement/task-implement'>
+            <image src='/image/icon-16.png'></image>
+        </navigator>
+    </view>
+</view>
+<!-- action over -->
+<view class='divider'></view>
+<!-- record start -->
+<view class='task-content-record'>
+    <text class='task-content-title'>沟通记录</text>
+    <view class='list-task-content-record'>
+        <!-- <view class='empty'>暂无记录</view> 没有数据时显示 -->
+        <navigator class='item'>
+            <text class='name'>通话失败</text>
+            <text class='date'>2018-12-24 10:28:35</text>
+        </navigator>
+        <navigator class='item'>
+            <text class='name'>通话失败</text>
+            <text class='date'>2018-12-24 10:28:35</text>
+        </navigator>
+    </view>
+</view>
+<!-- record over -->
+<view class='divider'></view>

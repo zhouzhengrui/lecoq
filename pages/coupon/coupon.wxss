@@ -1,0 +1,12 @@
+/* pages/coupon/coupon.wxss */
+page {
+    background-color: #fafafa;
+}
+
+.list-coupon-title {
+    display: block;
+    line-height: 1;
+    padding: 30rpx 30rpx 0;
+    font-size: 26rpx;
+    color: #b3b3b3;
+}

@@ -1,0 +1,155 @@
+<!-- pages/coupon/coupon.wxml -->
+<!-- <view class='empty'>加载中...</view> -->
+<text class='list-coupon-title'>满减券</text>
+<view class='list-coupon'>
+    <!-- item start -->
+    <view class='item'>
+        <image class='background' src='/image/background-coupon.png'></image>
+        <view class='item-inner'>
+            <view class='type'>
+                <view class='type-number'>
+                    <text class='prefix'>¥</text>
+                    <text class='number'>10</text>
+                </view>
+                <text class='type-text'>满50可用</text>
+            </view>
+            <view class='info'>
+                <text class='name'>新零售体验满减券</text>
+                <view class='info-inner'>
+                    <view class='info-inner-text'>
+                        <text class='text'>剩余<text class='number'>999</text>张</text>
+                        <text class='text'>有效期至: 2019-12-31</text>
+                    </view>
+                    <navigator class='buttn' url='/pages/coupon-select/coupon-select'>发送</navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <image class='background' src='/image/background-coupon.png'></image>
+        <view class='item-inner'>
+            <view class='type'>
+                <view class='type-number'>
+                    <text class='prefix'>¥</text>
+                    <text class='number'>20</text>
+                </view>
+                <text class='type-text'>满100可用</text>
+            </view>
+            <view class='info'>
+                <text class='name'>新零售体验满减券新零售体验满减券新零售体验满减券</text>
+                <view class='info-inner'>
+                    <view class='info-inner-text'>
+                        <text class='text'>剩余<text class='number'>999</text>张</text>
+                        <text class='text'>有效期至: 2019-12-31</text>
+                    </view>
+                    <navigator class='buttn' url='/pages/coupon-select/coupon-select'>发送</navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+</view>
+<text class='list-coupon-title'>折扣券</text>
+<view class='list-coupon'>
+    <!-- item start -->
+    <view class='item'>
+        <image class='background' src='/image/background-coupon.png'></image>
+        <view class='item-inner'>
+            <view class='type'>
+                <view class='type-number'>
+                    <text class='number'>8</text>
+                    <text class='suffix'>折</text>
+                </view>
+                <text class='type-text'>满100可用</text>
+            </view>
+            <view class='info'>
+                <text class='name'>新零售体验折扣券</text>
+                <view class='info-inner'>
+                    <view class='info-inner-text'>
+                        <text class='text'>剩余<text class='number'>999</text>张</text>
+                        <text class='text'>有效期至: 2019-12-31</text>
+                    </view>
+                    <navigator class='buttn' url='/pages/coupon-select/coupon-select'>发送</navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <image class='background' src='/image/background-coupon.png'></image>
+        <view class='item-inner'>
+            <view class='type'>
+                <view class='type-number'>
+                    <text class='number'>6.5</text>
+                    <text class='suffix'>折</text>
+                </view>
+                <text class='type-text'>满1000可用</text>
+            </view>
+            <view class='info'>
+                <text class='name'>新零售体验折扣券新零售体验折扣券新零售体验折扣券</text>
+                <view class='info-inner'>
+                    <view class='info-inner-text'>
+                        <text class='text'>剩余<text class='number'>999</text>张</text>
+                        <text class='text'>有效期至: 2019-12-31</text>
+                    </view>
+                    <navigator class='buttn' url='/pages/coupon-select/coupon-select'>发送</navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+</view>
+<text class='list-coupon-title'>抵用券</text>
+<view class='list-coupon'>
+    <!-- item start -->
+    <view class='item'>
+        <image class='background' src='/image/background-coupon.png'></image>
+        <view class='item-inner'>
+            <view class='type'>
+                <view class='type-number'>
+                    <text class='prefix'>¥</text>
+                    <text class='number'>10</text>
+                </view>
+                <text class='type-text'>满50可用</text>
+            </view>
+            <view class='info'>
+                <text class='name'>新零售体验抵用券</text>
+                <view class='info-inner'>
+                    <view class='info-inner-text'>
+                        <text class='text'>剩余<text class='number'>999</text>张</text>
+                        <text class='text'>有效期至: 2019-12-31</text>
+                    </view>
+                    <navigator class='buttn' url='/pages/coupon-select/coupon-select'>发送</navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <image class='background' src='/image/background-coupon.png'></image>
+        <view class='item-inner'>
+            <view class='type'>
+                <view class='type-number'>
+                    <text class='prefix'>¥</text>
+                    <text class='number'>20</text>
+                </view>
+                <text class='type-text'>满100可用</text>
+            </view>
+            <view class='info'>
+                <text class='name'>新零售体验抵用券新零售体验抵用券新零售体验抵用券</text>
+                <view class='info-inner'>
+                    <view class='info-inner-text'>
+                        <text class='text'>剩余<text class='number'>999</text>张</text>
+                        <text class='text'>有效期至: 2019-12-31</text>
+                    </view>
+                    <navigator class='buttn' url='/pages/coupon-select/coupon-select'>发送</navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+</view>

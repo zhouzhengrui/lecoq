@@ -1,0 +1,89 @@
+<!-- pages/task-birthday/task-birthday.wxml -->
+<!-- tab-bar start -->
+<view class='tab-bar'>
+    <view class='tab {{0 == currentIndex ? "active" : ""}}' bindtap='tabClick' data-index='0'>
+        <text>待处理(3)</text>
+    </view>
+    <view class='tab {{1 == currentIndex ? "active" : ""}}' bindtap='tabClick' data-index='1'>
+        <text>已处理</text>
+    </view>
+</view>
+<!-- tab-bar over -->
+<!-- tab-swiper start -->
+<swiper class='tab-swiper' bindchange='tabChange' current='{{currentIndex}}' duration='250'>
+    <!-- swiper start -->
+    <swiper-item>
+        <scroll-view scroll-y enable-back-to-top>
+            <view class='list-task'>
+                <!-- item start -->
+                <view class='list-task-item'>
+                    <view class='list-task-item-header'>
+                        <text class='list-task-date'>截止时间: 2019-01-19 00:00:00</text>
+                    </view>
+                    <view class='list-task-item-body'>
+                        <view class='list-task-info'>
+                            <view class='list-task-avatar'>
+                                <image class='image' src='/image/image-default.jpg'></image>
+                            </view>
+                            <text class='list-task-name'>刘雅静</text>
+                            <text class='list-task-label'>生日关怀任务</text>
+                        </view>
+                        <view class='list-task-button-group'>
+                            <navigator class='list-task-button' url='/pages/task-birthday-content/task-birthday-content'>去处理</navigator>
+                            <button class='list-task-button second'>忽略</button>
+                        </view>
+                    </view>
+                </view>
+                <!-- item over -->
+                <!-- item start -->
+                <view class='list-task-item'>
+                    <view class='list-task-item-header'>
+                        <text class='list-task-date'>截止时间: 2019-01-19 00:00:00</text>
+                        <text class='list-task-state red'>已超时</text>
+                    </view>
+                    <view class='list-task-item-body'>
+                        <view class='list-task-info'>
+                            <view class='list-task-avatar'>
+                                <image class='image' src='/image/image-default.jpg'></image>
+                            </view>
+                            <text class='list-task-name'>刘雅静</text>
+                            <text class='list-task-label'>生日关怀任务</text>
+                        </view>
+                        <view class='list-task-button-group'>
+                            <navigator class='list-task-button' url='/pages/task-birthday-content/task-birthday-content'>去处理</navigator>
+                            <button class='list-task-button second'>忽略</button>
+                        </view>
+                    </view>
+                </view>
+                <!-- item over -->
+            </view>
+        </scroll-view>
+    </swiper-item>
+    <!-- swiper over -->
+    <!-- swiper start -->
+    <swiper-item>
+        <view class='list-task'>
+            <!-- item start -->
+            <view class='list-task-item'>
+                <view class='list-task-item-header'>
+                    <text class='list-task-date'>截止时间: 2019-01-19 00:00:00</text>
+                </view>
+                <view class='list-task-item-body'>
+                    <view class='list-task-info'>
+                        <view class='list-task-avatar'>
+                            <image class='image' src='/image/image-default.jpg'></image>
+                        </view>
+                        <text class='list-task-name'>刘雅静</text>
+                        <text class='list-task-label'>复购提醒任务</text>
+                    </view>
+                    <view class='list-task-button-group'>
+                        <navigator class='list-task-button'>查看</navigator>
+                    </view>
+                </view>
+            </view>
+            <!-- item over -->
+        </view>
+    </swiper-item>
+    <!-- swiper over -->
+</swiper>
+<!-- tab-swiper over -->

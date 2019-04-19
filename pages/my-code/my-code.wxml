@@ -1,0 +1,19 @@
+<!--pages/my-code/my-code.wxml-->
+<view class='code-container'>
+    <view class='code-header'>
+        <view class='avatar'>
+            <image class='image' src='/image/image-default.jpg'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>王小树</text>
+            <text class='label'>日月光中心广场店</text>
+        </view>
+    </view>
+    <view class='code-image'>
+        <image class='image' src='/image/code.png'></image>
+    </view>
+    <view class='code-footer'>
+        <text>微信扫码领取会员卡</text>
+        <text>并加我为导购</text>
+    </view>
+</view>

@@ -1,0 +1,101 @@
+<!-- pages/customer-label-edit/customer-label-edit.wxml -->
+<scroll-view class='main-scroll' scroll-y enable-back-to-top>
+    <view class='label-edit-title'>标签名称</view>
+    <view class='label-area'>
+        <view class='label label-red'>购买属性<view class='space'>|</view>喜购折扣</view>
+    </view>
+    <view class='label-edit-title'>标签成员(89)</view>
+    <view class='list-link'>
+        <navigator class='item' url='/pages/customer-label-edit-add/customer-label-edit-add'>
+            <image class='icon' src='/image/icon-add.png'></image>
+            <text class='name'>添加成员</text>
+        </navigator>
+    </view>
+    <view class='divider'></view>
+    <!-- list start -->
+    <view class='list-customer'>
+        <!-- <view class='empty'>加载中...</view> -->
+        <!-- item start -->
+        <view class='item'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-woman.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>刘雅静</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>青铜会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <!-- item over -->
+        <!-- item start -->
+        <view class='item'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-man.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>王思聪</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>白银会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <!-- item over -->
+        <!-- item start -->
+        <view class='item'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-man.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>马云</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>黄金会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <!-- item over -->
+        <!-- item start -->
+        <view class='item'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-unknown.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>冯绍峰</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='red'>未注册会员</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <!-- item over -->
+    </view>
+    <!-- list over -->
+</scroll-view>
+<!-- footer start -->
+<view class='page-footer'>
+    <navigator class='button button-flat' open-type='navigateBack'>取消</navigator>
+    <button class='button' disabled='true'>完成</button>
+</view>
+<!-- footer over -->

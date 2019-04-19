@@ -1,0 +1,4 @@
+/* pages/customer-content-coupon/customer-content-coupon.wxss */
+page {
+    background-color: #f7f7f7;
+}

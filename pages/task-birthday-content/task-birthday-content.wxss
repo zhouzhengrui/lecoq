@@ -1,0 +1,5 @@
+/* pages/task-birthday-content/task-birthday-content.wxss */
+
+page {
+    background-color: #f7f7f7;
+}

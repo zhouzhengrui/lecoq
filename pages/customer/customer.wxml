@@ -1,0 +1,114 @@
+<!-- customer.wxml -->
+<!-- search start -->
+<view class='search-bar'>
+    <image class='icon' src='/image/icon-search.png'></image>
+    <input class='input' placeholder='姓名、手机号' confirm-type='search' />
+</view>
+<!-- search over -->
+<scroll-view class='main-scroll' scroll-y enable-back-to-top>
+    <!-- list start -->
+    <view class='list-customer'>
+        <!-- item start -->
+        <navigator class='item arrow' url='/pages/customer-adviser/customer-adviser'>
+            <view class='avatar'>
+                <image class='image' src='/image/icon-8.png'></image>
+            </view>
+            <view class='info'>
+                <text class='name'>已绑定顾问顾客</text>
+            </view>
+        </navigator>
+        <!-- item over -->
+        <!-- item start -->
+        <navigator class='item arrow' url='/pages/customer-label/customer-label'>
+            <view class='avatar'>
+                <image class='image' src='/image/icon-9.png'></image>
+            </view>
+            <view class='info'>
+                <text class='name'>标签</text>
+            </view>
+        </navigator>
+        <!-- item over -->
+    </view>
+    <!-- list over -->
+    <view class='divider'></view>
+    <!-- list start -->
+    <view class='list-customer'>
+        <!-- <view class='empty'>加载中...</view> -->
+        <!-- item start -->
+        <navigator class='item arrow' url='/pages/customer-content/customer-content'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-woman.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>刘雅静</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>青铜会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+        <!-- item over -->
+        <!-- item start -->
+        <navigator class='item arrow' url='/pages/customer-content/customer-content'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-man.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>王思聪</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>白银会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+        <!-- item over -->
+        <!-- item start -->
+        <navigator class='item arrow' url='/pages/customer-content/customer-content'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-man.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>马云</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>黄金会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+        <!-- item over -->
+        <!-- item start -->
+        <navigator class='item arrow' url='/pages/customer-content/customer-content'>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-unknown.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>冯绍峰</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='red'>未注册会员</text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+        <!-- item over -->
+    </view>
+    <!-- list over -->
+</scroll-view>

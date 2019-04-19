@@ -1,0 +1,55 @@
+<!-- pages/task-implement/task-implement.wxml -->
+<form class='form'>
+    <view class='divider'></view>
+    <view class='form-group'>
+        <text class='name'>联系状态</text>
+        <view class='input'>
+            <radio-group class="radiocheckbox-group">
+                <label class="radiocheckbox-item" wx:for="{{state}}">
+                    <radio class='radiocheckbox' name="radio-1" checked="{{item.checked}}" />
+                    <text>{{item.value}}</text>
+                </label>
+            </radio-group>
+        </view>
+    </view>
+    <view class='divider'></view>
+    <view class='form-group'>
+        <text class='name'>沟通情况</text>
+        <view class='input'>
+            <textarea class='textarea' maxlength='100' auto-height placeholder="请输入沟通情况" bindinput="inputs" />
+            <text class='textarea-counter'>{{textareaCounter|0}}/100</text>
+        </view>
+    </view>
+    <view class='divider'></view>
+    <view class='form-group'>
+        <text class='name'>回访状态</text>
+        <view class='input'>
+            <radio-group class="radiocheckbox-group">
+                <label class="radiocheckbox-item">
+                    <radio class='radiocheckbox' name="radio-2" checked="checked" />
+                    <text>是</text>
+                </label>
+                <label class="radiocheckbox-item">
+                    <radio class='radiocheckbox' name="radio-2" />
+                    <text>否</text>
+                </label>
+            </radio-group>
+        </view>
+    </view>
+    <view class='divider'></view>
+    <view class='form-group picker-group'>
+        <text class='name'>沟通时间</text>
+        <!-- 这里能不能直接显示当前日期和时间? -->
+        <view class='input'>
+            <picker class='picker-datetime' mode='date' value='{{date}}' start='2018-01-01' end='2019-03-01'>
+                <view class='picker'>{{date}}</view>
+            </picker>
+            <picker class='picker-datetime' mode='time' value='{{time}}'>
+                <view class='picker'>{{time}}</view>
+            </picker>
+        </view>
+    </view>
+    <view class='button-group'>
+        <button class='button' bindtap="default">确定</button>
+    </view>
+</form>

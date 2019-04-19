@@ -1,0 +1,90 @@
+<!-- pages/my-income/my-income.wxml -->
+<view class='top-bar'>
+    <picker class='picker-date' mode="date" value="{{date}}" start="2018-01" end="2019-01" fields="month" bindchange="bindDateChange">
+        <view class="picker">{{date}}</view>
+    </picker>
+</view>
+<text class='income-title'>共收入8笔, 合计</text>
+<view class='income-number'>
+    <text class='number font-number'><text class='prefix'>¥</text>1013.60</text>
+    <view class='per'>
+        <text class='gray'>较上月</text>
+        <image class='icon' src='/image/bull-market.png'></image>
+        <text class='red'>48%</text>
+    </view>
+</view>
+<text class='income-title'>业绩对比</text>
+<view class="chart">
+    <ec-canvas id="chart-income" canvas-id="chart-bar" ec="{{ec}}"></ec-canvas>
+</view>
+<text class='income-title'>业绩排行榜</text>
+<!-- list start -->
+<view class='list-customer'>
+    <view class='item-header'>
+        <text class='item-header-rank'>排行</text>
+        <text class='item-header-name'>姓名</text>
+        <text class='item-header-change'>排行变化</text>
+        <text class='item-header-income'>业绩</text>
+    </view>
+    <!-- item start -->
+    <view class='item'>
+        <view class='rank-image'>
+            <image src='/image/icon-medal-1.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>周杰轮</text>
+            <text class='change change-rise'>1</text>
+            <text class='income font-number'>¥998.00</text>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <view class='rank-image'>
+            <image src='/image/icon-medal-2.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>张雪有</text>
+            <text class='change change-decline'>1</text>
+            <text class='income font-number'>¥898.00</text>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <view class='rank-image'>
+            <image src='/image/icon-medal-3.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>刘德化</text>
+            <text class='change change-none'></text>
+            <text class='income font-number'>¥798.00</text>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <view class='rank'>
+            <text class='number'>4</text>
+        </view>
+        <view class='info'>
+            <text class='name'>李铭</text>
+            <text class='change change-none'></text>
+            <text class='income font-number'>¥698.00</text>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <view class='rank'>
+            <text class='number'>5</text>
+        </view>
+        <view class='info'>
+            <text class='name'>周星迟</text>
+            <text class='change change-none'></text>
+            <text class='income font-number'>¥598.00</text>
+        </view>
+    </view>
+    <!-- item over -->
+</view>
+<!-- list over -->

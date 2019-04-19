@@ -1,0 +1,49 @@
+/* pages/customer-label-type/customer-label-type.wxss */
+page {
+    background-color: #f7f7f7;
+}
+
+.list-label {
+    border-top: 1rpx solid #e6e6e6;
+    border-bottom: 1rpx solid #e6e6e6;
+    background-color: #fff;
+}
+
+.list-label .item {
+    padding-left: 46rpx;
+    font-size: 26rpx;
+    background-size: 24rpx;
+    background-repeat: no-repeat;
+    background-position: center right 30rpx;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 50 50'><path fill='#d3d3d3' d='M25.491,0.719c-1.056-0.998-2.722-0.951-3.72,0.107c-0.998,1.056-0.95,2.722,0.107,3.72L43.537,25L21.878,45.457c-1.057,0.997-1.104,2.662-0.107,3.719C22.289,49.726,22.985,50,23.685,50c0.648,0,1.297-0.237,1.806-0.717l23.685-22.369C49.702,26.416,50,25.725,50,25s-0.298-1.416-0.824-1.913L25.491,0.719z'/></svg>");
+}
+
+.list-label .item:last-child .inner {
+    border-bottom: none;
+}
+
+.list-label .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26rpx 60rpx 24rpx 0;
+    border-bottom: 1rpx solid #e6e6e6;
+}
+
+.list-label .label {
+    display: flex;
+    align-items: center;
+    padding: 12rpx 30rpx;
+    border-radius: 8rpx;
+    /* color: #997a25; */
+    /* background-color: #f7e1a4; */
+}
+.list-label .label .space {
+    margin: 0 10rpx;
+    font-size: 24rpx;
+    opacity: .3;
+}
+
+.list-label .number {
+    color: #4796fa;
+}

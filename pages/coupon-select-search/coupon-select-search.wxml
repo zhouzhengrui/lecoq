@@ -1,0 +1,107 @@
+<!-- pages/coupon-select-search/coupon-select-search.wxml -->
+<!-- search start -->
+<view class='search-bar'>
+    <image class='icon' src='/image/icon-search-2.png'></image>
+    <input class='input' placeholder='昵称、姓名、手机号' value='{{input}}' confirm-type='search' />
+    <button class='cancel' bindtap='cancel'>取消</button>
+</view>
+<!-- search over -->
+<scroll-view class='main-scroll' scroll-y enable-back-to-top>
+    <!-- <view class='empty'>搜索中...</view> -->
+    <!-- list start -->
+    <view class='list-customer'>
+        <!-- item start -->
+        <label class='item'>
+            <checkbox-group class="checkbox-group">
+                <checkbox class='checkbox' name="checkbox" />
+            </checkbox-group>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-woman.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>刘雅静</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>青铜会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </label>
+        <!-- item over -->
+        <!-- item start -->
+        <label class='item'>
+            <checkbox-group class="checkbox-group">
+                <checkbox class='checkbox' name="checkbox" />
+            </checkbox-group>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-man.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>王思聪</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>白银会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </label>
+        <!-- item over -->
+        <!-- item start -->
+        <label class='item'>
+            <checkbox-group class="checkbox-group">
+                <checkbox class='checkbox' name="checkbox" />
+            </checkbox-group>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-man.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>马云</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='label-icon rank'>黄金会员</text>
+                        <text class='label-icon phone'>13855558888</text>
+                    </view>
+                </view>
+            </view>
+        </label>
+        <!-- item over -->
+        <!-- item start -->
+        <label class='item'>
+            <checkbox-group class="checkbox-group">
+                <checkbox class='checkbox' name="checkbox" />
+            </checkbox-group>
+            <view class='avatar'>
+                <image class='image' src='/image/image-default.jpg'></image>
+                <image class='badge' src='/image/icon-unknown.png'></image>
+            </view>
+            <view class='info'>
+                <view class='row'>
+                    <text class='name'>冯绍峰</text>
+                </view>
+                <view class='row'>
+                    <view class='label-group'>
+                        <text class='red'>未注册会员</text>
+                    </view>
+                </view>
+            </view>
+        </label>
+        <!-- item over -->
+    </view>
+    <!-- list over -->
+</scroll-view>
+<!-- footer start -->
+<view class='page-footer'>
+    <button class='button' bindtap='sending'>发送</button>
+</view>
+<!-- footer over -->

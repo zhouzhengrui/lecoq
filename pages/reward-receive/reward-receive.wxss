@@ -1,0 +1,125 @@
+/* pages/reward-receive/reward-receive.wxss */
+
+page {
+    color: #fff;
+    background-color: #4796fa;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.shake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 140rpx;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.shake-view {
+    opacity: 1;
+}
+
+.shake-image {
+    width: 500rpx;
+    height: 500rpx;
+}
+
+.shake-text {
+    margin-top: 40rpx;
+    font-size: 34rpx;
+}
+
+.gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 180rpx;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gift-view {
+    opacity: 1;
+}
+
+@keyframes heart {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(0, 10rpx);
+    }
+}
+
+.gift-info {
+    position: relative;
+    z-index: 2;
+    top: -30rpx;
+    padding: 30rpx 44rpx;
+    margin: 0 30rpx;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10rpx;
+    box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.075);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    animation: heart 1.3s ease-in-out infinite alternate;
+}
+
+.gift-info .text {
+    font-size: 40rpx;
+    margin-bottom: 10rpx;
+}
+
+.gift-info .name {
+    font-size: 30rpx;
+}
+
+.gift-image-container {
+    position: relative;
+    width: 600rpx;
+    height: 600rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gift-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600rpx;
+    height: 600rpx;
+}
+
+.gift-text {
+    margin-top: 40rpx;
+    font-size: 26rpx;
+}
+
+.button {
+    font-size: 32rpx;
+    color: #666;
+    padding: 20rpx 68rpx;
+    border-radius: 10rpx;
+    border: 1rpx solid #e6e6e6;
+    background-color: #fff;
+    line-height: 1;
+    margin-top: 58rpx;
+}

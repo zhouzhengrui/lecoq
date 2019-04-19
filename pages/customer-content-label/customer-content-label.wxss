@@ -1,0 +1,175 @@
+/* pages/customer-content-label/customer-content-label.wxss */
+
+page {
+    background-color: #f7f7f7;
+}
+
+.main-scroll {
+    height: calc(100vh - 100rpx);
+}
+
+.label-input {
+    border-top: 1rpx solid #e6e6e6;
+    border-bottom: 1rpx solid #e6e6e6;
+    background-color: #fff;
+}
+
+.label-input input {
+    height: 100rpx;
+    font-size: 26rpx;
+    padding: 0 30rpx;
+}
+
+.card-label {
+    padding: 30rpx 0 10rpx 30rpx;
+    border-top: 1rpx solid #e6e6e6;
+    border-bottom: 1rpx solid #e6e6e6;
+    background-color: #fff;
+}
+
+.card-label-title {
+    display: block;
+    color: #b3b3b3;
+    font-size: 26rpx;
+    margin-bottom: 30rpx;
+}
+
+.label-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.label-group .label-item {
+    flex-shrink: 0;
+    position: relative;
+    margin-right: 20rpx;
+    margin-bottom: 28rpx;
+}
+.label-group .label {
+    display: inline-flex;
+    align-items: center;
+    padding: 8rpx 20rpx;
+    border-radius: 8rpx;
+    font-size: 24rpx;
+}
+
+.label-group .label-item .space {
+    margin: 0 6rpx;
+    font-size: 20rpx;
+    opacity: 0.3;
+}
+
+.label-group .label-delete {
+    position: absolute;
+    top: -12rpx;
+    right: -12rpx;
+    width: 30rpx;
+    height: 30rpx;
+}
+
+checkbox-group.label-checkbox-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+checkbox-group.label-checkbox-group label {
+    box-sizing: border-box;
+    padding: 8rpx 20rpx;
+    border-radius: 8rpx;
+    margin-right: 20rpx;
+    margin-bottom: 30rpx;
+    font-size: 24rpx;
+    background-color: #ebebeb;
+    border: 1rpx solid #ebebeb;
+}
+
+checkbox-group.label-checkbox-group label.checkbox-checked {
+    color: #4796fa;
+    background-color: #fff;
+    border-color: #4796fa;
+}
+checkbox-group.label-checkbox-group-red label.checkbox-checked {
+    color: #f05050;
+    border: 1rpx solid #f05050;
+}
+checkbox-group.label-checkbox-group-orange label.checkbox-checked {
+    color: #e67e22;
+    border: 1rpx solid #e67e22;
+}
+checkbox-group.label-checkbox-group-yellow label.checkbox-checked {
+    color: #e8c107;
+    border: 1rpx solid #e8c107;
+}
+checkbox-group.label-checkbox-group-green label.checkbox-checked {
+    color: #5bb344;
+    border: 1rpx solid #5bb344;
+}
+checkbox-group.label-checkbox-group-cyan label.checkbox-checked {
+    color: #18c29c;
+    border: 1rpx solid #18c29c;
+}
+checkbox-group.label-checkbox-group-blue label.checkbox-checked {
+    color: #4796fa;
+    border: 1rpx solid #4796fa;
+}
+checkbox-group.label-checkbox-group-purple label.checkbox-checked {
+    color: #7266ba;
+    border: 1rpx solid #7266ba;
+}
+checkbox-group.label-checkbox-group-pink label.checkbox-checked {
+    color: #ff5b77;
+    border: 1rpx solid #ff5b77;
+}
+checkbox-group.label-checkbox-group-brown label.checkbox-checked {
+    color: #997a25;
+    border: 1rpx solid #997a25;
+}
+
+
+.card-label-type-title {
+    display: block;
+    margin-bottom: 30rpx;
+    margin-right: 30rpx;
+    padding:8rpx 20rpx;
+    font-size:24rpx;
+    border-radius:8rpx;
+    text-align: center;
+}
+.card-label-type-title-red {
+    color: #f05050;
+    background-color: #fcdcdc;
+}
+.card-label-type-title-orange {
+    color: #e67e22;
+    background-color: #fae5d3;
+}
+.card-label-type-title-yellow {
+    color: #e8c107;
+    background-color: #fef6d1;
+}
+.card-label-type-title-green {
+    color: #5bb344;
+    background-color: #def0da;
+}
+.card-label-type-title-cyan {
+    color: #18c29c;
+    background-color: #d1f3eb;
+}
+.card-label-type-title-blue {
+    color: #4796fa;
+    background-color: #daeafe;
+}
+.card-label-type-title-purple {
+    color: #7266ba;
+    background-color: #e3e0f1;
+}
+.card-label-type-title-pink {
+    color: #ff5b77;
+    background-color: #ffdee4;
+}
+.card-label-type-title-brown {
+    color: #997a25;
+    background-color: #ebe4d3;
+}

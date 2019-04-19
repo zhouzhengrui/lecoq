@@ -1,0 +1,65 @@
+<!--pages/customer-content-info/customer-content-info.wxml-->
+<!-- customer start -->
+<view class='task-content-customer'>
+    <view class='inner-customer'>
+        <view class='avatar'>
+            <image class='image' src='/image/image-default.jpg'></image>
+            <image class='badge' src='/image/icon-man.png'></image>
+        </view>
+        <view class='info'>
+            <view class='row'>
+                <text class='name'>刘雅静</text>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- customer over -->
+<view class='divider'></view>
+<!-- info start -->
+<view class='task-content-info'>
+    <view class='item'>
+        <text class='name'>昵称</text>
+        <text class='info'>且听风</text>
+    </view>
+    <view class='item'>
+        <text class='name'>会员等级</text>
+        <text class='info'>青铜会员</text>
+    </view>
+    <view class='item'>
+        <text class='name'>手机</text>
+        <text class='info'>13855558888</text>
+    </view>
+    <view class='item'>
+        <text class='name'>开卡时间</text>
+        <text class='info'>2018-12-24 17:25:33</text>
+    </view>
+    <view class='item'>
+        <text class='name'>所属门店</text>
+        <text class='info'>日月光中心广场店</text>
+    </view>
+    <view class='item'>
+        <text class='name'>生日</text>
+        <text class='info'>2006-12-24</text>
+    </view>
+    <view class='item'>
+        <text class='name'>宝宝生日</text>
+        <text class='info'>2018-12-24</text>
+    </view>
+    <view class='item'>
+        <text class='name'>首次购买时间</text>
+        <text class='info'>2018-12-24 17:25:33</text>
+    </view>
+    <view class='item'>
+        <text class='name'>最近一次购买时间</text>
+        <text class='info'>2018-12-24 20:56:04</text>
+    </view>
+    <view class='item'>
+        <text class='name'>最近一次购买商品</text>
+        <text class='info'>风味酸奶</text>
+    </view>
+    <view class='item'>
+        <text class='name'>累计消费金额</text>
+        <text class='info'>¥12000.00</text>
+    </view>
+</view>
+<!-- info over -->

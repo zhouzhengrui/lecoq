@@ -1,0 +1,33 @@
+/* pages/coupon-send-feedback/coupon-send-feedback.wxss */
+
+page {
+    background-color: #f7f7f7;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 158rpx 50rpx 50rpx;
+}
+.icon {
+    margin-bottom: 54rpx;
+}
+.title {
+    font-size: 34rpx;
+    font-weight: bold;
+    margin-bottom: 24rpx;
+}
+.info {
+    font-size: 30rpx;
+    color: #b3b3b3;
+}
+.button {
+    font-size: 32rpx;
+    color: #666;
+    padding: 20rpx 68rpx;
+    border-radius: 10rpx;
+    border: 1rpx solid #e6e6e6;
+    background-color: #fff;
+    line-height: 1;
+    margin-top: 58rpx;
+}

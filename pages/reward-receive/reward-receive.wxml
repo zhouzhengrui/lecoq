@@ -1,0 +1,18 @@
+<!--pages/reward-receive/reward-receive.wxml-->
+<view class='container'>
+    <view class="shake {{shake ? 'shake-view' : ''}}">
+        <image class='shake-image' src='/image/shake.png'></image>
+        <text class='shake-text'>摇一摇, 摇出奖励!</text>
+    </view>
+    <view class="gift {{gift ? 'gift-view' : ''}}">
+        <view class='gift-image-container'>
+            <image class='gift-image' src='/image/gift.png'></image>
+            <view class='gift-info'>
+                <text class='text'>恭喜!</text>
+                <text class='name'>你获得了<text class='red'>价值1000元礼包</text></text>
+            </view>
+        </view>
+        <text class='gift-text'>精致小熊 + 时尚旅行包 + 机器人</text>
+        <navigator class='button' open-type='redirectTo' url='/pages/reward/reward'>返回考核奖励</navigator>
+    </view>
+</view>

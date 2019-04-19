@@ -1,0 +1,90 @@
+/* pages/reward/reward.wxss */
+
+page {
+    background-color: #f7f7f7;
+}
+.task-content-customer {
+    border-top: none;
+}
+
+.picker {
+    height: 60rpx;
+    padding: 12rpx 60rpx 12rpx 20rpx;
+    border-radius: 30rpx;
+    border: 1rpx solid #e6e6e6;
+    font-size: 24rpx;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center right 25rpx;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 50 50'><path fill='#333' d='M49.176,11.245c-1.057-0.997-2.722-0.949-3.72,0.107L25,33.011L4.544,11.352c-0.998-1.058-2.664-1.104-3.72-0.107 c-1.057,0.998-1.104,2.664-0.107,3.721l22.369,23.683c0.497,0.527,1.189,0.825,1.913,0.825s1.416-0.298,1.913-0.825l22.368-23.683 C50.279,13.909,50.231,12.243,49.176,11.245z'/></svg>");
+}
+
+.list-reward .item {
+    position: relative;
+    padding: 46rpx 30rpx;
+    margin-bottom: 20rpx;
+    border-top: 1rpx solid #e6e6e6;
+    border-bottom: 1rpx solid #e6e6e6;
+    background-color: #fff;
+}
+.list-reward .item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30rpx;
+}
+.list-reward .item-header .date {
+    color: #b3b3b3;
+}
+.list-reward .item-body {
+    padding: 54rpx 30rpx;
+}
+.list-reward .item-body .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24rpx;
+    color: #b3b3b3;
+}
+.list-reward .item-body .info-group > text {
+    margin-right: 14rpx;
+    color: #999;
+}
+.list-reward .item-body .info-group .color-1 {
+    font-size: 28rpx;
+}
+.list-reward .progress {
+    height: 10rpx;
+    margin-top: 20rpx;
+    border-radius: 5rpx; 
+    background-color: #dddddd;
+    overflow: hidden;
+}
+.list-reward .progress-bar {
+    height: 10rpx;
+    border-radius: 5rpx; 
+    background-color: #4796fa;
+}
+.list-reward .item-footer .button {
+    width: 250rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 26rpx;
+}
+.list-reward .item-footer .button[disabled] {
+    opacity: 1;
+    color: #fff !important;
+    background-color: #dddddd !important;
+}
+.list-reward .item-footer .button.button-complete[disabled] {
+    opacity: 0.5;
+    color: #fff !important;
+    background-color: #4796fa !important;
+}
+.list-reward .seal {
+    width: 150rpx;
+    height: 150rpx;
+    position: absolute;
+    right: 270rpx;
+    top: 30rpx;
+}

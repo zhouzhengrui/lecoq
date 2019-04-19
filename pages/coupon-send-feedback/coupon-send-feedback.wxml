@@ -1,0 +1,9 @@
+<!-- pages/coupon-send-feedback/coupon-send-feedback.wxml -->
+<view class='container'>
+    <icon class='icon' type="success" size="90" color="#4796fa" />
+    <!-- <icon class='icon' type="warn" size="90" /> 发送失败 -->
+    <text class='title'>发送成功!</text>
+    <text class='info'>成功为60人发送了该优惠券</text>
+    <!-- delta 返回几层需要控制 -->
+    <navigator class='button' open-type='navigateBack' delta='1'>返回优惠券页面</navigator>
+</view>

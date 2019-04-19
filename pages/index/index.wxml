@@ -1,0 +1,83 @@
+<!-- index.wxml -->
+<!-- banner start -->
+<view class='banner banner-wave'>
+    <view class='wave-1'></view>
+    <view class='wave-2'></view>
+    <view class='item-sales'>
+        <text class='label'>累计销售额(元)</text>
+        <text class='number font-number'>520<text class='suffix'>.00</text></text>
+    </view>
+    <view class='item-rank'>
+        <image class='image' src='/image/index-medal-1.png'></image>
+        <!-- <image class='image' src='/image/index-medal-2.png'></image> 银牌 -->
+        <!-- <image class='image' src='/image/index-medal-3.png'></image> 铜牌 -->
+        <!-- <text class='label'>销售额排行</text><text class='number font-number'>99</text> 其他名次-->
+    </view>
+</view>
+<!-- banner over -->
+<!-- customer start -->
+<view class='customer'>
+    <view class='customer-info'>
+        <view class='item'>
+            <text class='label'>本月销售额</text>
+            <text class='number font-number'>105<text class='suffix'>.00</text></text>
+            <view class='per'>
+                <image class='icon' src='/image/bear-market.png'></image>
+                <text class='green'>38%</text>
+            </view>
+        </view>
+        <view class='item'>
+            <text class='label'>本月新客招募</text>
+            <text class='number font-number'>105</text>
+            <view class='per'>
+                <image class='icon' src='/image/bull-market.png'></image>
+                <text class='red'>48%</text>
+            </view>
+        </view>
+        <view class='item'>
+            <text class='label'>本月复购率</text>
+            <text class='number font-number'>98<text class='suffix'>%</text></text>
+            <view class='per'>
+                <text class='gray'>--</text>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- customer over -->
+<!-- task start -->
+<view class='task'>
+    <text class='index-title'>任务中心</text>
+    <navigator class='item' url='/pages/task-visit/task-visit'>
+        <image class='icon' src='/image/icon-1.png'></image>
+        <text class='label'>新客回访</text>
+        <text class='info gray'>今日还有<text class='red'>3</text>位顾客未回访</text>
+    </navigator>
+    <navigator class='item' url='/pages/task-remind/task-remind'>
+        <image class='icon' src='/image/icon-2.png'></image>
+        <text class='label'>复购提醒</text>
+        <text class='info gray'>今日还有<text class='red'>5</text>位顾客复购需要提醒</text>
+    </navigator>
+    <navigator class='item' url='/pages/task-birthday/task-birthday'>
+        <image class='icon' src='/image/icon-3.png'></image>
+        <text class='label'>生日关怀</text>
+        <text class='info gray'>今日还有<text class='red'>2</text>位顾客过生日</text>
+    </navigator>
+</view>
+<!-- task over -->
+<view class='divider'></view>
+<!-- business start -->
+<view class='business'>
+    <navigator class='item' url='/pages/coupon/coupon'>
+        <image class='icon' src='/image/icon-4.png'></image>
+        <text class='label'>发券</text>
+    </navigator>
+    <navigator class='item' url='/pages/reward/reward'>
+        <image class='icon' src='/image/icon-5.png'></image>
+        <text class='label'>考核奖励</text>
+    </navigator>
+    <navigator class='item' url='/pages/my-income/my-income'>
+        <image class='icon' src='/image/icon-6.png'></image>
+        <text class='label'>我的业绩</text>
+    </navigator>
+</view>
+<!-- business over -->

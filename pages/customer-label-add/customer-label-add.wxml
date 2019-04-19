@@ -1,0 +1,35 @@
+<!-- pages/customer-label-add/customer-label-add.wxml -->
+<scroll-view class='main-scroll' scroll-y enable-back-to-top>
+    <view class='label-input'>
+        <input placeholder="输入自定义标签" />
+    </view>
+    <view class='divider'></view>
+    <view class='card-label'>
+        <text class='card-label-title'>已添加自定义标签</text>
+        <view class='label-group'>
+            <view class='label-item'>
+                <view class='label label-gray'>自定义标签</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-gray'>自定义标签</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-gray'>自定义标签</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-gray'>自定义标签</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+        </view>
+    </view>
+    <view class='divider'></view>
+</scroll-view>
+<!-- footer start -->
+<view class='page-footer'>
+    <navigator class='button button-flat' open-type='navigateBack'>取消</navigator>
+    <button class='button' disabled='true'>确定</button>
+</view>
+<!-- footer over -->

@@ -1,0 +1,29 @@
+<!--pages/my-prize/my-prize.wxml-->
+<view class='list-task'>
+    <!-- item start -->
+    <view class='list-task-item'>
+        <view class='list-task-item-header'>
+            <text class='list-task-date'>获得时间: 2019-01-19 00:00:00</text>
+        </view>
+        <view class='list-task-item-body'>
+            <view class='list-task-info'>
+                <text class='list-task-name'>价值1000元奖品</text>
+                <text class='list-task-label'>精致小熊 + 时尚旅行包 + 机器人</text>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='list-task-item'>
+        <view class='list-task-item-header'>
+            <text class='list-task-date'>获得时间: 2019-01-19 00:00:00</text>
+        </view>
+        <view class='list-task-item-body'>
+            <view class='list-task-info'>
+                <text class='list-task-name'>价值1000元奖品</text>
+                <text class='list-task-label'>精致小熊 + 时尚旅行包 + 机器人</text>
+            </view>
+        </view>
+    </view>
+    <!-- item over -->
+</view>

@@ -1,0 +1,170 @@
+/* pages/my-income/my-income.wxss */
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+}
+
+.income-title {
+    display: block;
+    padding: 70rpx 50rpx 0;
+    font-size: 26rpx;
+    /* color: #b3b3b3; */
+}
+
+.income-number {
+    display: flex;
+    align-items: baseline;
+}
+
+.income-number .number {
+    font-size: 64rpx;
+    padding: 30rpx 30rpx 0 50rpx;
+    line-height: 64rpx;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+
+.income-number .per {
+    font-size: 26rpx;
+    display: flex;
+    align-items: center;
+}
+
+.income-number .gray {
+    margin-right: 8rpx;
+}
+
+.income-number .per .icon {
+    width: 26rpx;
+    height: 26rpx;
+    margin-right: 8rpx;
+}
+
+.income-number .prefix {
+    font-size: 38rpx;
+    vertical-align: text-top;
+    margin-right: 10rpx;
+}
+
+.picker {
+    padding: 35rpx 50rpx;
+    font-size: 30rpx;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center right 15rpx;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 50 50'><path fill='#333' d='M49.176,11.245c-1.057-0.997-2.722-0.949-3.72,0.107L25,33.011L4.544,11.352c-0.998-1.058-2.664-1.104-3.72-0.107 c-1.057,0.998-1.104,2.664-0.107,3.721l22.369,23.683c0.497,0.527,1.189,0.825,1.913,0.825s1.416-0.298,1.913-0.825l22.368-23.683 C50.279,13.909,50.231,12.243,49.176,11.245z'/></svg>");
+}
+
+.chart {
+    padding: 0 50rpx;
+    height: 400rpx;
+}
+
+.list-customer {
+    border: none;
+    padding: 30rpx 0;
+    font-size: 22rpx;
+}
+
+.list-customer .item-header {
+    display: flex;
+    align-items: center;
+    padding: 0 50rpx 14rpx;
+    color: #b3b3b3;
+    border-bottom: 1rpx solid #e6e6e6;
+}
+
+.list-customer .item-header-rank {
+    flex-basis: 50rpx;
+    margin-right: 30rpx;
+}
+
+.list-customer .item-header-name {
+    flex-basis: 150rpx;
+}
+
+.list-customer .item-header-income {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.list-customer .item {
+    align-items: center;
+    padding: 0 0 0 50rpx;
+}
+
+.list-customer .info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30rpx 50rpx 30rpx 0;
+}
+
+.list-customer .rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 30rpx;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    font-size: 28rpx;
+}
+
+.list-customer .info .name {
+    flex-basis: 150rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list-customer .change {
+    font-size: 22rpx;
+    padding: 2rpx 10rpx 2rpx 40rpx;
+    min-width: 70rpx;
+    min-height: 38rpx;
+    border-radius: 8rpx;
+    color: #fff;
+    background-size: 20rpx;
+    background-repeat: no-repeat;
+}
+
+.list-customer .change-none {
+    background-color: #daeafe;
+    background-position: center;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 50 50'><rect fill='#4796fa' y='21' width='50' height='8'/></svg>");
+}
+
+.list-customer .change-rise {
+    color: #f43530;
+    background-color: #fdd7d6;
+    background-position: center left 12rpx;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 50 50'><polygon fill='#f43530' points='0,37.5 50,37.5 25,12.5'/></svg>");
+}
+
+.list-customer .change-decline {
+    color: #5bb344;
+    background-color: #def0da;
+    background-position: center left 12rpx;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' viewBox='0 0 50 50'><polygon fill='#5bb344' points='0,12.5 50,12.5 25,37.5'/></svg>");
+}
+
+.list-customer .income {
+    font-size: 28rpx;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.list-customer .rank-image {
+    margin-right: 30rpx;
+}
+
+.list-customer .rank-image image {
+    width: 50rpx;
+    height: 50rpx;
+}

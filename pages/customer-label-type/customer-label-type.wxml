@@ -1,0 +1,48 @@
+<!--pages/customer-label-type/customer-label-type.wxml-->
+<view class='list-label'>
+    <!-- 颜色: 红/橙/黄/绿/青/蓝/紫/粉/棕/灰 -->
+    <!-- 对应: label-red/label-orange/label-yellow/label-green/label-cyan/label-blue/label-purple/label-pink/label-brown/label-gray -->
+    <navigator class='item' url='/pages/customer-label-edit/customer-label-edit'>
+        <view class='inner'>
+            <view class='label label-red'>喜购折扣</view>
+            <text class='number'>94人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-edit/customer-label-edit'>
+        <view class='inner'>
+            <view class='label label-red'>喜购多件</view>
+            <text class='number'>37人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-edit/customer-label-edit'>
+        <view class='inner'>
+            <view class='label label-red'>喜购鞋子</view>
+            <text class='number'>37人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-edit/customer-label-edit'>
+        <view class='inner'>
+            <view class='label label-red'>喜购外套</view>
+            <text class='number'>45人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-red'>喜购内搭</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-red'>喜购裤子</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-label-type/customer-label-type'>
+        <view class='inner'>
+            <view class='label label-red'>喜购配件</view>
+            <text class='number'>26人</text>
+        </view>
+    </navigator>
+</view>
+<view class='divider'></view>

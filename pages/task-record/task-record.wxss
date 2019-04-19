@@ -1,0 +1,4 @@
+/* pages/task-record/task-record.wxss */
+page {
+    background-color: #f7f7f7;
+}

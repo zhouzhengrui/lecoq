@@ -1,0 +1,44 @@
+<!--pages/task-record/task-record.wxml-->
+<!-- customer start -->
+<view class='task-content-customer'>
+    <view class='inner-customer'>
+        <view class='avatar'>
+            <image class='image' src='/image/image-default.jpg'></image>
+            <image class='badge' src='/image/icon-woman.png'></image>
+        </view>
+        <view class='info'>
+            <view class='row'>
+                <text class='name'>刘雅静</text>
+            </view>
+            <view class='row'>
+                <view class='label-group'>
+                    <text class='label-icon rank'>青铜会员</text>
+                    <text class='label-icon phone'>13855558888</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- customer over -->
+<view class='divider'></view>
+<!-- info start -->
+<view class='task-content-info'>
+    <view class='item'>
+        <text class='name'>联系状态</text>
+        <text class='info'>沟通成功</text>
+    </view>
+    <view class='item'>
+        <text class='name'>回访状态</text>
+        <text class='info'>是</text>
+    </view>
+    <view class='item'>
+        <text class='name'>沟通时间</text>
+        <text class='info'>2018-12-24 20:56</text>
+    </view>
+    <view class='item'>
+        <text class='name'>沟通情况</text>
+        <text class='info'>您好, 您在2019年1月1日购买的酸奶, 不知吃着味道如何, 如果您在使用产品的过程中有什么需要帮助的请随时联系我</text>
+    </view>
+</view>
+<!-- info over -->
+<view class='divider'></view>

@@ -1,0 +1,9 @@
+/* pages/task-implement/task-implement.wxss */
+
+page {
+    background-color: #f7f7f7;
+}
+
+.button-group {
+    padding: 60rpx 30rpx;   
+}

@@ -1,0 +1,5 @@
+/* pages/task-visit/task-visit.wxss */
+
+page {
+    background-color: #f7f7f7;
+}

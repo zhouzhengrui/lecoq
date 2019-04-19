@@ -1,0 +1,38 @@
+<!-- pages/customer-content-history/customer-content-history.wxml -->
+<view class='banner-history'>
+    <view class='info'>
+        <text class='title'>共消费99次, 合计</text>
+        <view class='row'>
+            <view class='number-group'>
+                <text class='prefix font-number'>¥</text>
+                <text class='number font-number'>688</text>
+                <text class='decimal font-number'>.00</text>
+            </view>
+        </view>
+    </view>
+    <view class='icon'>
+        <image src='/image/icon-21.png'></image>
+    </view>
+</view>
+<view class='divider'></view>
+<view class='list-history'>
+    <!-- <view class='empty'>加载中...</view> -->
+    <!-- item start -->
+    <view class='item'>
+        <view class='info'>
+            <text class='name'>活着(新版)余华 畅销中国近现代小说 张艺谋电影改编 现代/当代社会文学读物丛书</text>
+            <text class='date'>消费时间: 2019-03-01 12:00:00</text>
+        </view>
+        <text class='number font-number'>¥100.00</text>
+    </view>
+    <!-- item over -->
+    <!-- item start -->
+    <view class='item'>
+        <view class='info'>
+            <text class='name'>活着(新版)余华</text>
+            <text class='date'>消费时间: 2019-03-01 12:00:00</text>
+        </view>
+        <text class='number font-number'>¥100.00</text>
+    </view>
+    <!-- item over -->
+</view>

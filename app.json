@@ -1,0 +1,68 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/customer/customer",
+        "pages/my/my",
+        "pages/my-income/my-income",
+        "pages/my-code/my-code",
+        "pages/task-visit/task-visit",
+        "pages/my-reward/my-reward",
+        "pages/task-visit-content/task-visit-content",
+        "pages/task-implement/task-implement",
+        "pages/task-remind/task-remind",
+        "pages/task-remind-content/task-remind-content",
+        "pages/task-birthday/task-birthday",
+        "pages/task-birthday-content/task-birthday-content",
+        "pages/customer-label/customer-label",
+        "pages/customer-label-add/customer-label-add",
+        "pages/customer-label-edit/customer-label-edit",
+        "pages/customer-label-edit-add/customer-label-edit-add",
+        "pages/customer-adviser/customer-adviser",
+        "pages/customer-content/customer-content",
+        "pages/customer-content-label/customer-content-label",
+        "pages/customer-content-history/customer-content-history",
+        "pages/customer-content-coupon/customer-content-coupon",
+        "pages/coupon/coupon",
+        "pages/customer-content-info/customer-content-info",
+        "pages/coupon-select/coupon-select",
+        "pages/coupon-select-search/coupon-select-search",
+        "pages/coupon-send-feedback/coupon-send-feedback",
+        "pages/reward/reward",
+        "pages/reward-receive/reward-receive",
+        "pages/customer-label-type/customer-label-type",
+        "pages/task-record/task-record"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#333333",
+        "selectedColor": "#4796fa",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "image/tabBar-icon-1.png",
+                "selectedIconPath": "image/tabBar-icon-1-active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/customer/customer",
+                "iconPath": "image/tabBar-icon-2.png",
+                "selectedIconPath": "image/tabBar-icon-2-active.png",
+                "text": "顾客"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "iconPath": "image/tabBar-icon-3.png",
+                "selectedIconPath": "image/tabBar-icon-3-active.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

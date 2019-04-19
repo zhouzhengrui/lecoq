@@ -1,0 +1,111 @@
+<!-- pages/customer-content/customer-content.wxml -->
+<!-- banner start -->
+<view class='banner-wave'>
+    <view class='wave-1'></view>
+    <view class='wave-2'></view>
+    <navigator class='banner-customer-content' url='/pages/customer-content-info/customer-content-info'>
+        <view class='avatar'>
+            <image class='image' src='/image/image-default.jpg'></image>
+            <image class='badge' src='/image/icon-woman.png'></image>
+        </view>
+        <view class='info'>
+            <view class='row'>
+                <text class='name'>刘雅静</text>
+            </view>
+            <view class='row'>
+                <text class='label-text'>昵称: 且听风</text>
+            </view>
+            <view class='row'>
+                <view class='label-group'>
+                    <text class='label-icon rank'>青铜会员</text>
+                    <text class='label-icon phone'>13855558888</text>
+                </view>
+            </view>
+        </view>
+    </navigator>
+</view>
+<!-- banner over -->
+<!-- action start -->
+<view class='action-group'>
+    <view class='item' bindtap='tel'>
+        <image src='/image/icon-14.png'></image>
+    </view>
+    <view class='item'>
+        <image src='/image/icon-15.png'></image>
+    </view>
+</view>
+<!-- action over -->
+<view class='divider'></view>
+<!-- label start -->
+<view class='customer-content-label'>
+    <navigator class='customer-content-label-title' url='/pages/customer-content-label/customer-content-label'>顾客标签</navigator>
+    <view class='customer-content-label-group'>
+        <view class='label label-red'>购买属性<view class='space'>|</view>喜购折扣</view>
+        <view class='label label-orange'>风格<view class='space'>|</view>休闲</view>
+        <view class='label label-yellow'>营销敏感<view class='space'>|</view>积分兑换</view>
+        <view class='label label-green'>体型特征<view class='space'>|</view>偏胖</view>
+        <view class='label label-cyan'>品类喜好<view class='space'>|</view>T恤</view>
+        <view class='label label-blue'>颜色喜好<view class='space'>|</view>黑色</view>
+        <view class='label-more'><image src='/image/icon-label-more.png'></image></view>
+    </view>
+</view>
+<!-- label over -->
+<view class='divider'></view>
+<!-- info start -->
+<view class='customer-content-info'>
+    <view class='item'>
+        <text class='name'>最后一次购买时间</text>
+        <text class='info'>2006-12-24</text>
+    </view>
+    <view class='item'>
+        <text class='name'>最后一次购买商品</text>
+        <text class='info'>酸奶</text>
+    </view>
+    <view class='item'>
+        <text class='name'>是否周期购</text>
+        <text class='info'>否</text>
+    </view>
+</view>
+<!-- info over -->
+<view class='divider'></view>
+<!-- list start -->
+<view class='list-customer-content'>
+    <view class='item'>
+        <view class='icon'>
+            <image src='/image/icon-17.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>消费统计</text>
+            <text class='number'>¥3782.00</text>
+        </view>
+    </view>
+    <navigator class='item' url='/pages/customer-content-history/customer-content-history'>
+        <view class='icon'>
+            <image src='/image/icon-18.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>历史消费明细</text>
+            <text class='number'>34</text>
+        </view>
+    </navigator>
+    <navigator class='item' url='/pages/customer-content-coupon/customer-content-coupon'>
+        <view class='icon'>
+            <image src='/image/icon-19.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>优惠券</text>
+            <text class='number'>4</text>
+        </view>
+    </navigator>
+    <view class='item'>
+        <view class='icon'>
+            <image src='/image/icon-20.png'></image>
+        </view>
+        <view class='info'>
+            <text class='name'>剩余积分</text>
+            <text class='number'>999</text>
+        </view>
+    </view>
+</view>
+<!-- list over -->
+<view class='divider'></view>

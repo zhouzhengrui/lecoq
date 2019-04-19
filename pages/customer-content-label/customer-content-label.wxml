@@ -1,0 +1,73 @@
+<!-- pages/customer-content-label/customer-content-label.wxml -->
+<scroll-view class='main-scroll' scroll-y enable-back-to-top>
+    <view class='card-label'>
+        <text class='card-label-title'>已添加标签</text>
+        <view class='label-group'>
+            <view class='label-item'>
+                <view class='label label-red'>购买属性<view class='space'>|</view>喜购折扣</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-orange'>风格<view class='space'>|</view>休闲</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-yellow'>营销敏感<view class='space'>|</view>积分兑换</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-green'>体型特征<view class='space'>|</view>偏胖</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-cyan'>品类喜好<view class='space'>|</view>T恤</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+            <view class='label-item'>
+                <view class='label label-gray'>自定义标签</view>
+                <image class='label-delete' src='/image/icon-label-delete.png' bindtap='labelDelete'></image>
+            </view>
+        </view>
+    </view>
+    <view class='divider'></view>
+    <view class='card-label padding-botton-100'>
+        <text class='card-label-title'>系统标签</text>
+        <!-- 配色类名与标签相同 -->
+        <!-- item start -->
+        <text class='card-label-type-title card-label-type-title-red'>购买属性</text>
+        <checkbox-group class='label-checkbox-group label-checkbox-group-red'>
+            <label class='{{item.checked?"checkbox-checked":""}}' bindtap='type1Clicks' wx:for="{{type1}}" data-index="{{index}}">
+                <checkbox hidden checked='{{item.checked}}' />
+                <text>{{item.name}}</text>
+            </label>
+        </checkbox-group>
+        <!-- item over -->
+        <!-- item start -->
+        <text class='card-label-type-title card-label-type-title-orange'>风格</text>
+        <checkbox-group class='label-checkbox-group label-checkbox-group-orange'>
+            <label class='{{item.checked?"checkbox-checked":""}}' bindtap='type2Clicks' wx:for="{{type2}}" data-index="{{index}}">
+                <checkbox hidden checked='{{item.checked}}' />
+                <text>{{item.name}}</text>
+            </label>
+        </checkbox-group>
+        <!-- item over -->
+    </view>
+    <view class='divider'></view>
+    <view class='card-label padding-botton-100'>
+        <text class='card-label-title'>自定义标签</text>
+        <checkbox-group class='label-checkbox-group label-checkbox-group-gray'>
+            <label class='{{item.checked?"checkbox-checked":""}}' bindtap='customClicks' wx:for="{{custom}}" data-index="{{index}}">
+                <checkbox hidden checked='{{item.checked}}' />
+                <text>{{item.name}}</text>
+            </label>
+        </checkbox-group>
+    </view>
+    <view class='divider'></view>
+</scroll-view>
+<!-- footer start -->
+<view class='page-footer'>
+    <navigator class='button button-flat' open-type='navigateBack'>取消</navigator>
+    <button class='button' disabled='true'>确定</button>
+</view>
+<!-- footer over -->
+
