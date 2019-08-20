@@ -43,6 +43,8 @@
             <view class='info'>
                 <view class='row'>
                     <text class='name'>刘雅静</text>
+                    <image class='link' src='/image/icon-link.png'></image>
+                    <text class='link-name'>已绑定王建玲</text>
                 </view>
                 <view class='row'>
                     <view class='label-group'>

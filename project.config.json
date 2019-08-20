@@ -47,7 +47,7 @@
 				{
 					"id": 0,
 					"name": "page",
-					"pathName": "pages/reward-receive/reward-receive",
+					"pathName": "pages/customer/customer",
 					"query": "",
 					"scene": null
 				}

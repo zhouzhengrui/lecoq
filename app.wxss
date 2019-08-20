@@ -812,6 +812,17 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
     font-size: 30rpx;
 }
 
+.list-customer .info .link {
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: 4rpx;
+}
+
+.list-customer .info .link-name {
+    font-size: 20rpx;
+    color: #b3b3b3;
+}
+
 .list-customer .info .label-group {
     color: #b3b3b3;
     font-size: 24rpx;
